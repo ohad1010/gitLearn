@@ -3,7 +3,8 @@ from product import *
 class Basket():
     def __init__(self,list1):
         self.list1 = list1
-    
+    	print("new basket")
+
     def printTotalBasket(self):
         sum1 = 0
         for i in self.list1:
